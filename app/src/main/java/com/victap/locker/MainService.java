@@ -60,8 +60,8 @@ public class MainService extends Service
 
     @Override
     public void onClick(View view) {
-        boolean actived = mDeviceManager.isAdminActive(mAdminComponent);
-        if (actived) {
+        boolean activited = mDeviceManager.isAdminActive(mAdminComponent);
+        if (activited) {
             this.lockScreen();
         }
     }
